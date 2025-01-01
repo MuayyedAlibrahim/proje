@@ -1,0 +1,233 @@
+*{  
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif;
+}
+/* --------------- nav start --------------- */
+
+header{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 30;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.main-nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0 !important;
+}
+.main-nav .logo{
+    font-size: 1.5em;
+    color: #ff511a;
+    text-decoration: none;
+    font-weight: 600;
+}
+.main-nav li{
+    padding: 10px 10px !important;
+    margin-left: 15px !important;
+}
+.main-nav .active{
+    color: #ff511a;
+}
+.main-nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    transition: 0.5s ease ;
+    
+}
+.main-nav li:hover a{
+    transition: all 0.5s ease;
+    color: #ff511a;
+}
+.main-nav .nav-btn{
+    padding: 15px 25px !important;
+    background-color: #43ba7f;
+    border-radius: 3px 16px 14px 20px;
+    color: #fff;
+}
+.main-nav .nav-btn:hover{
+    border-radius: 20px 3px 16px 14px;
+    color: #fff;
+
+}
+/* --------------- nav end --------------- */
+/* --------------- main header banner start --------------- */
+.page-heading{
+    background-image: url(../images/heading-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 215px 0px 120px 0px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.page-heading h2{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 700;
+}
+.page-heading .div-dec{
+    width: 80px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 20px auto 0 auto;
+}
+/* --------------- main header banner end --------------- */
+/* --------------- map start --------------- */
+.map .col-lg-10 {
+  margin-top: 40px; /* Harita üst kısmına 40 piksel boşluk ekler */
+}
+.map iframe {
+  width: 98%;
+
+  height: 450px;
+  border: 0;
+  display: block;
+  margin: 40px auto 0; /* Üstte 40px boşluk */
+}
+
+section.map .info-item {
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-top: -60px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    z-index: 2;
+    transition: all .5s;
+  }
+  
+  section.map .info-item:hover {
+    margin-top: -70px;
+  }
+  
+  section.map .info-item i {
+    font-size: 36px;
+    color: #43ba7f;
+    margin-bottom: 25px;
+  }
+  
+  section.map .info-item h4 {
+    font-size: 18px;
+    color: #212741;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  
+  section.map .info-item a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #43ba7f;
+    transition: all 0.3s;
+  }
+  
+  section.map .info-item a:hover {
+    color: #ff511a;
+  }
+  
+  #contact input {
+    width: 100%;
+    height: 50px;
+    background-color: #f7f7f7;
+    color: #212741;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 15px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 30px;
+  }
+  
+  #contact textarea {
+    width: 100%;
+    height: 180px;
+    max-height: 24px;
+    min-height: 150px;
+    background-color: #f7f7f7;
+    color: #212741;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 15px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 30px;
+  }
+  
+  #contact input::placeholder, 
+  #contact textarea::placeholder {
+    color: #212741;
+  }
+  #contact button.orange-button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff511a;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    border: none;
+    transition: all .3s;
+  }
+  
+  #contact button.orange-button:hover {
+    background-color: #43ba7f;
+  }
+
+.contact-us-form{
+    margin-top: 90px;
+}
+.section-heading{
+    text-align: center;
+}
+.section-heading h6{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ff511a;
+    font-weight: 700;
+}
+.section-heading h4{
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #212741;
+    margin-bottom: 60px;
+}
+
+footer {
+    margin-top: 110px;
+    background-color: #181d30;
+    text-align: center;
+    padding: 75px 0px;
+  }
+  footer p {
+    color: #fff;
+    font-weight: 300;
+  }
+  footer p a {
+    color: #ff511a;
+  }
+  .social-icons a{
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+  
